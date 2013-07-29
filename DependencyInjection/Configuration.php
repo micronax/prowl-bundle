@@ -27,9 +27,9 @@ class Configuration implements ConfigurationInterface
 
         $rootNode->children()
                     ->booleanNode('debug')->defaultValue(false)->end()
-                    ->scalarNode('provider_key')->end()
-                    ->scalarNode('api_key')->end()
-                    ->scalarNode('app_name')->end()
+                    ->scalarNode('provider_key')->defaultValue('')->end()
+                    ->scalarNode('api_key')->defaultValue('')->end()
+                    ->scalarNode('app_name')->defaultValue('')->end()
                 ->end()
             ->end();
 
