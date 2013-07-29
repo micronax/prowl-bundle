@@ -3,7 +3,7 @@
     "description": "Share the xenji/prowlPHP lib in a symfony service container",
     "type": "symfony-bundle",
     "keywords": ["symfony2", "prowl", "prowlphp"],
-    "homepage": "",
+    "homepage": "https://github.com/Micronax/prowl-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -19,6 +19,11 @@
     "autoload": {
         "psr-0": {
             "Micronax\\ProwlBundle": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
