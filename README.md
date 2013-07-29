@@ -15,7 +15,7 @@ Installing the bundle via packagist is the quickest and simplest method of insta
 
 ### Step 1: Composer require
 
-    $ php composer.phar require "micronax/MicronaxProwlBundle":"dev-master"
+    $ php composer.phar require "micronax/prowl-bundle":"dev-master"
 
 ### Step 2: Enable the bundle in the kernel
 
