@@ -1,5 +1,5 @@
 {
-    "name": "Micronax/ProwlBundle",
+    "name": "micronax/prowl-bundle",
     "description": "Share the xenji/prowlPHP lib in a symfony service container",
     "type": "symfony-bundle",
     "keywords": ["symfony2", "prowl", "prowlphp"],
