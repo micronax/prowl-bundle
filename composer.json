@@ -15,10 +15,10 @@
         "php": ">=5.3.2",
         "xenji/ProwlPHP": ">=1.0.2"
     },
-    "target-dir": "micronax/prowl-bundle",
+    "target-dir": "Micronax/ProwlBundle",
     "autoload": {
         "psr-0": {
-            "micronax\\prowl-bundle": ""
+            "Micronax\\ProwlBundle": ""
         }
     },
     "extra": {
