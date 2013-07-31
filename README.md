@@ -11,6 +11,8 @@ The bundle provides a new `prowl` service.
 
 ## Installation
 
+You need an prowlapp.com API-Key to use this software!  
+
 Installing the bundle via packagist is the quickest and simplest method of installing the bundle. Here are the steps:
 
 ### Step 1: Composer require
@@ -31,7 +33,7 @@ Installing the bundle via packagist is the quickest and simplest method of insta
         );
     }
 
-### Step 2: Configure your parameters
+### Step 3: Configure your parameters
 
 Just add the following to your config.yml
 
@@ -46,4 +48,4 @@ Just add the following to your config.yml
 Usage is as simple as possible. Just call the following line of code everywhere in your application where you want to send prowl messages:
 
     $this->get('prowl')->notify('MESSAGE SUBJECT', 'MESSSAGE TEXT', 2);
-    // Whether "3" represents the priority in inveral [-2, 2]
+    // where "3" represents an integer priority in between -2 (very low) and 2 (emergency)
