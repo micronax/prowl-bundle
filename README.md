@@ -5,7 +5,7 @@ This bundle provides a simple integration of the "[Prowl Library](https://github
 
     <?php
 
-    $buzz = $this->container->get('prowl');
+    $prowl = $this->container->get('prowl');
 
 The bundle provides a new `prowl` service.
 
